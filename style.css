@@ -66,7 +66,47 @@ header {
     background-color: #49aa26;
     color: white;
 }
+
+/* table */
+#dataTable {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
+}
+table thead th:first-child,
+table tbody td:first-child {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+table tbody tr {
+    opacity: 0.7;
+}
+table tbody tr:hover {
+    opacity: 1;
+}
+table thead th {
+    background-color: white;
+    /* opacity: 0.6; */
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+table tbody td {
+    background-color: white;
+    padding: 1rem 2rem;
+}
+td.description {
+    color: var(--azul-escuro);
+}
+td.income {
+    color: #12a454;
+}
+td.expense {
+    color: #e92929;
+}
 /* footer */
 footer {
     text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--azul-escuro);
+    opacity: 0.6;
 }
