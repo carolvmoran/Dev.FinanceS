@@ -183,6 +183,7 @@ td.expense {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    z-index: 1000;
 }
 .modalOverlay.active {
     opacity: 1;
@@ -191,6 +192,8 @@ td.expense {
 .modal {
     background: #f0f2f5;
     padding: 2.4rem;
+    position: relative;
+    z-index: 1;
 }
 
 /* Form */
