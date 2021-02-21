@@ -84,15 +84,16 @@ button:hover {
 header {
     width: 100%;
     text-align: center;
-    background-color: rgb(9, 70, 9);
+    /* background-color: rgb(9, 70, 9); */
+    background: linear-gradient(to top,rgb(91, 158, 91),rgb(9, 70, 9));
     padding: 2rem 0 10rem;
     height: 200px;
 }
-
+/* 
 #logo {
     color: white;
     font-weight: 100;
-}
+} */
 /* balance */
 #balance {
     margin-top: -8rem;
@@ -111,6 +112,7 @@ header {
     background-color: white;
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
     margin-bottom: 2rem;
     color: var(--azul-escuro);
 }
